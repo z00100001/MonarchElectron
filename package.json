@@ -1,0 +1,19 @@
+{
+  "name": "monarch-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Emotion AI Powered by Streamlit + Electron",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "com.monarch.emotionai",
+    "mac": {
+      "icon": "Monarch.icns"
+    }
+  },
+  "devDependencies": {
+    "electron": "^25.9.8",
+    "electron-packager": "^17.1.2"
+  }
+}
